@@ -20,9 +20,9 @@ namespace Tasks
             дільник (НСД), використовуючи алгоритм Евкліда : НСД (A, B) = НСД (B, A mod B), 
             якщо B ≠ 0; НСД (A, 0) =A, де "mod" означає операцію отримання остачі від ділення. */
 
-            Console.WriteLine($"GCD 54 and 24 is: {gcd(54, 24)}");
-            Console.WriteLine($"GCD 12 and 8 is: {gcd(12, 8)}");
-            Console.WriteLine($"GCD 1 and 5 is: {gcd(1, 5)}");
+            Console.WriteLine($"GCD 54 and 24 is {gcd(54, 24)}");
+            Console.WriteLine($"GCD 12 and 8 is {gcd(12, 8)}");
+            Console.WriteLine($"GCD 1 and 5 is {gcd(1, 5)}");
 
         }
     }

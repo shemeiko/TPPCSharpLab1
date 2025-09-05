@@ -1,5 +1,3 @@
-using System;
-
 namespace Tasks
 {
     public class Task4
@@ -34,7 +32,7 @@ namespace Tasks
                     sum += val;
 
             } while (val != 0 || count < 2);
-            Console.WriteLine($"Sum of odds index elements is: {sum}");
+            Console.WriteLine($"Sum of odds index elements is {sum}");
         }
     }
 }
