@@ -2,7 +2,7 @@ namespace Tasks
 {
     public class Task4
     {
-        static bool isPrime(int num)
+        static bool IsPrime(int num)
         {
             if (num < 2) return false;
             for (int i = 2; i * i <= num; ++i)
@@ -28,7 +28,7 @@ namespace Tasks
                 val = Convert.ToInt32(Console.ReadLine());
                 count++;
 
-                if (isPrime(count))
+                if (IsPrime(count))
                     sum += val;
 
             } while (val != 0 || count < 2);
