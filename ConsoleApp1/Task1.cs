@@ -1,4 +1,7 @@
-namespace Tasks {
+using System;
+
+namespace Tasks
+{
     public class Task1
     {
         public static void Run()
@@ -19,7 +22,7 @@ namespace Tasks {
             {
                 Console.WriteLine(b);
             }
-            else if ((b > a && a > c) || (b > a && a > c)) 
+            else if ((b > a && a > c) || (b < a && a < c))
             {
                 Console.WriteLine(a);
             }

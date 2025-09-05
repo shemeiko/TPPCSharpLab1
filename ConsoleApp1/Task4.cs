@@ -1,3 +1,5 @@
+using System;
+
 namespace Tasks
 {
     public class Task4
@@ -17,14 +19,14 @@ namespace Tasks
             меншому двох. Обчислити суму тих з них, порядкові номери яких  прості 5 
             числа. Послідовність потенційно необмежена, закінченням послідовності 
             служить число 0. */
-            
+
             int sum = 0;
             int count = 0;
             int val;
 
             do
             {
-                Console.Write($"Enter element[{count+1}]: ");
+                Console.Write($"Enter element[{count + 1}]: ");
                 val = Convert.ToInt32(Console.ReadLine());
                 count++;
 
