@@ -19,11 +19,12 @@ namespace Tasks
             /* Ввести цілі додатні числа A і B. Знайти їх найбільший спільний  
             дільник (НСД), використовуючи алгоритм Евкліда : НСД (A, B) = НСД (B, A mod B), 
             якщо B ≠ 0; НСД (A, 0) =A, де "mod" означає операцію отримання остачі від ділення. */
+            Console.Write("[GCD] Enter number1: ");
+            int a = Convert.ToInt32(Console.ReadLine());
+            Console.Write("[GCD] Enter number2: ");
+            int b = Convert.ToInt32(Console.ReadLine());
 
-            Console.WriteLine($"GCD 54 and 24 is {GCD(54, 24)}");
-            Console.WriteLine($"GCD 12 and 8 is {GCD(12, 8)}");
-            Console.WriteLine($"GCD 1 and 5 is {GCD(1, 5)}");
-
+            Console.WriteLine($"GCD {a} and {b} is {GCD(a, b)}");
         }
     }
 }
