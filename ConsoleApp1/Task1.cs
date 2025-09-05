@@ -15,11 +15,11 @@ namespace Tasks {
             Console.Write("Enter number for C: ");
             double c = Convert.ToDouble(Console.ReadLine());
 
-            if ((a < b && b < c) || (b > a && b < c))
+            if ((a < b && b < c) || (a > b && b > c))
             {
                 Console.WriteLine(b);
             }
-            else if ((b > a && a < c) || (b < a && a > c)) 
+            else if ((b > a && a > c) || (b > a && a > c)) 
             {
                 Console.WriteLine(a);
             }
